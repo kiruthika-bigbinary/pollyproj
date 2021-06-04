@@ -34,6 +34,8 @@ group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
 end
 
+gem 'wdm', '>= 0.1.0'
+
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 4.1.0'
